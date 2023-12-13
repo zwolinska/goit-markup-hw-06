@@ -596,12 +596,13 @@ img {
     background-color:var(--dark-grey);
 }
 
-.form-input-text{
+.form-input::placeholder{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     size: 12px;
     line-height: 24px;
     letter-spacing: 0,04em;
+    padding-left: 16px;
     color: var(--white);
 }
 
