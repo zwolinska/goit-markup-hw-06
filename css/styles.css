@@ -599,6 +599,7 @@ img {
 
 .form{
     display: flex;
+    gap:24px;
 }
 
 .form-input{
@@ -624,7 +625,6 @@ img {
 }
 
 .button-mail{
-    margin-left: 24px;
     background-color: var(--strong-blue);
     color: var(--white);
     min-width: 165px;
