@@ -373,17 +373,18 @@
         </div>
 
         <form>
-            <label class="">
+        <div  class="subscribe-mail">
+            <label>
                 <span class="subscribe-letter subscribe-one">Subscribe</span>
-                <input class="form-input" type="email" name="email" placeholder="E-mail"/>
+                <input class="form-input" type="email" name="email" placeholder="E-mail" />
             </label>
-            <button type="button" class="button-mail button-mail-bloc subscribe-letter subscribe-two">Subscribe
+            <button type="submit" class="button-mail subscribe-letter subscribe-two">Subscribe
                 <svg width="24" height="24" class="icon-subscribe">
                     <use href="./images/icons.svg#icon-Frame-3"></use>
                 </svg>
             </button>
+        </div>  
         </form>
-
     </footer>
 
     <div class="background-modal is-hidden" data-modal>
@@ -393,6 +394,53 @@
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
+            <div>
+            <p class="subscribe-letter">Leave your contacts and we will call you back</p>
+        <form class="clasing-form">
+            <label class="label-class">
+                Name
+            </label>
+            <div>
+                <input type="username" name="username" />
+                <svg width="18" height="24" class="">
+                    <use href="./images/icons.svg#icon-person-black"></use>
+                </svg>
+            </div>
+            <label class="label-class">
+                Phone
+            </label>
+            <div>
+                <input type="phone" name="phone"/>
+                <svg width="18" height="24" class="">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+            </div>
+            <label class="label-class">
+                Email
+            </label>
+            <div>
+                <input type="email" name="email"/>
+                <svg width="18" height="24" class="">
+                    <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+            </div>
+            <label class="label-class">
+                Comment
+            </label>
+            <div>
+                <textarea name="Text input" placeholder="Text input"></textarea>
+            </div>
+            <div>
+                <svg width="16" height="16" class="">
+                    <use href="./images/icons.svg#icon-Checkbox"></use>
+                </svg>
+                <p>I accept the terms and conditions of the Privacy Policy</p>
+            </div>
+            <div class="button-container">
+                <button type="submit" class="send-button send-button-modal">Send</button>
+            </div> 
+        </form>
+        </div>
         </div>
     </div>
     <script src="./js/modal.js"></script>
