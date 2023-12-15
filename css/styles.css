@@ -841,29 +841,26 @@ img {
     color:var(--strong-blue)
 }
 
-.send-button{
-    background-color: var(--strong-blue);
-    color: var(--white);
-    font-family: "Roboto",sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.send-button:hover,
-.send-button:focus{
-    background-color: var(--spherical-blue);
-}
-
 .send-button-modal{
     display: block;
     min-width: 169px;
     height: 56px;
     border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
     cursor: pointer;
     margin: auto;
     border-radius: 4px;
+    background-color: var(--strong-blue);
+    color: var(--white);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.send-button-modal:hover,
+.send-button-modal:focus{
+    background-color: var(--spherical-blue);
+}
+
