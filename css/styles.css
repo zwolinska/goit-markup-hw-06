@@ -587,15 +587,22 @@ img {
 
     /*subsribe-mail-class*/
 
+.subscribe-letter{
+    margin-left: 80px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+
 .form{
     display: flex;
 }
 
-.label{
-    gap: 24px
-}
-
 .form-input{
+    margin-left: 80px;
     width: 264px;
     height: 40px;
     border: 1px solid;
@@ -606,20 +613,18 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding-left: 16px;
+    gap:24px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--white);
 
 }
 
 .form-input::placeholder{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    size: 12px;
-    line-height: 24px;
-    letter-spacing: 0,04em;
     color: var(--white);
 }
 
 .button-mail{
+    margin-left: 24px;
     background-color: var(--strong-blue);
     color: var(--white);
     min-width: 165px;
@@ -627,7 +632,7 @@ img {
     font-family: "Roboto",sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     border: none;
     border-radius: 4px;
