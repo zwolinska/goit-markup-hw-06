@@ -780,7 +780,8 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.container-input-icon:focus svg{
+.container-input-icon:focus-within
+.container-input-icon:hover{
   fill:var(--strong-blue);
 }
 
@@ -816,8 +817,7 @@ img {
     display: block;
 }
 
-.container-for-checbox label span:hover,
-.container-for-checbox label span:active{
+.input-checbox:checked + .label-text-for .label-text-for{
     background-color:var(--spherical-blue);
     border: none;
     fill:var(--light-grey);
