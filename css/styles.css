@@ -780,7 +780,7 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.container-input-icon:focus-within
+.container-input-icon:focus-within,
 .container-input-icon:hover{
   fill:var(--strong-blue);
 }
@@ -817,7 +817,8 @@ img {
     display: block;
 }
 
-.input-checbox:checked + .label-text-for .label-text-for{
+.container-for-checbox label span:hover,
+.container-for-checbox label span:focus{
     background-color:var(--spherical-blue);
     border: none;
     fill:var(--light-grey);
