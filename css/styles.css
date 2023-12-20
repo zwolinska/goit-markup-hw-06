@@ -814,8 +814,7 @@ img {
     display: block;
 }
 
-.container-for-checbox label span:hover,
-.container-for-checbox label span:focus{
+.input-checbox:checked + .label-text-for .span-label{
     background-color:var(--spherical-blue);
     border: none;
     fill:var(--light-grey);
