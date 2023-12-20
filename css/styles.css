@@ -176,9 +176,6 @@ img {
     background-color: var(--dark-grey);
     padding: 188px 0;
     margin: auto;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)), 
-    url(../images/img-name.jpeg);
     max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), 
     url(../images/people-office.jpg);
@@ -844,8 +841,6 @@ img {
     justify-content: center;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-modla{
